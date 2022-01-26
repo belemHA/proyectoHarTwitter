@@ -1,0 +1,31 @@
+body{
+    background-color: red;
+}
+.jumbotron{
+    background-color: #7FB2F7;
+}
+.galeria{
+  width:300px;
+  height:250px;
+  background-image:url('/lenguajcorp1.jpg');
+  /*la imgen cubre la totalidad del elemento, para que quede mas o menos ajustada la imagen*/
+  background-size:cover;
+              
+  transition:all ease-in 1s;	
+}
+
+.galeria:hover{
+  background-image:url('lenguajcorp1.jpg');
+  /*Rota 180 grados*/
+  transform: rotateY(180deg);
+}
+/*Todas las img que esten dentro de ficha curso*/
+.ficha-curso img:hover{
+  transform: scale(1.2);
+  background-color: blue;
+
+}
+.pie{
+  text-align:center;
+  background-color: pink;gi
+}
